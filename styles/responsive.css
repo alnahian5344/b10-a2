@@ -8,4 +8,9 @@
     .nav-li {
         display: none;
     }
+
+    .habit-img-container{
+        display: flex;
+        flex-direction: column;
+    }
 }

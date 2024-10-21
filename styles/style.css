@@ -42,3 +42,83 @@ margin-left: 20px;
     color: white;
     display: none;
 }
+
+
+
+/* Habits section */
+
+
+
+.habit-section {
+    width: 100%; 
+    padding: 20px; 
+
+}
+
+.habit-header {
+    text-align: center; 
+    margin-bottom: 30px; 
+    color: white; 
+}
+
+.habit-img-container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+
+}
+
+.habit-img-container div {
+    text-align: center; 
+    max-width: 150px; 
+}
+
+.habit-img-container img {
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+}
+
+.habit-img-container h4,
+.habit-img-container p {
+    margin: 10px 0; 
+    color: white; 
+}
+
+/* training */
+
+.run-section {
+    max-width: 1060px;
+    height: 400px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 40px; 
+    padding: 20px; 
+}
+
+.run-text {
+    flex: 1; 
+    color: white;
+    padding-top: 20px;
+}
+.trainign-btn{
+    background-color: #E6533C;
+  
+    padding: 10px;
+    border-radius: 50px;
+}
+.run-img {
+    flex: 1; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.run-img img {
+    max-width: 100%; 
+    height: auto; 
+}
+
